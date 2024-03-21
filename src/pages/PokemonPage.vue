@@ -30,7 +30,7 @@ const router = useRouter();
 const pokemon = ref({});
 
 const goBack = () => {
-  router.push("/about");
+  router.push("/pokemon");
 };
 
 onBeforeMount(async () => {

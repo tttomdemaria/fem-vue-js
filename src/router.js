@@ -8,7 +8,7 @@ import {
 
 const routes = [
   { path: "/", component: Home },
-  { path: "/about", component: () => import("@/pages/About.vue") },
+  { path: "/pokemon", component: () => import("@/pages/Pokemon.vue") },
   { path: "/pokedex/:id", component: () => import("@/pages/PokemonPage.vue") },
 ];
 

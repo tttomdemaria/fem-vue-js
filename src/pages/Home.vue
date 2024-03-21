@@ -56,7 +56,7 @@ const array = ref([
 ]);
 
 watch(num, () => {
-  if (num.value > 25) router.push("/about");
+  if (num.value > 25) router.push("/pokemon");
 });
 
 const signIn = async () => {};

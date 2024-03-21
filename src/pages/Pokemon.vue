@@ -1,5 +1,5 @@
 <template>
-  <h1>This is About!</h1>
+  <h1>This is for Pokemon!</h1>
   <div class="item">
     <button @click="goToPoke(i)" v-for="(pokemon, i) in pokedex">
       Go to
