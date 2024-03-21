@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  font-family: "Nunito", sans-serif;
+  --primary-dark: #325d79;
+  --secondary-dark: #f26627;
+  --primary-light: #9bd7b1;
+  --secondary-light: #f9a26c;
+  --white: #ffffff;
+  --offwhite: #efeeee;
+}
+
+button {
+  color: var(--primary-dark);
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 35px;
+  margin: 15px 0;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: var(--secondary-dark);
+  color: var(--white);
+}
+
+body {
+  max-width: 85%;
+  margin: auto;
+  background-color: var(--offwhite);
+}
+
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.modal {
+  z-index: 2;
+  width: 450px;
+  height: 150px;
+  background-color: var(--white);
+  box-shadow: 0 3px 3px 3px gray;
+  display: flex;
+  position: absolute;
+  margin-left: 50px;
+  border-radius: 15px;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
