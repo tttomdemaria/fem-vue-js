@@ -8,6 +8,7 @@
   --secondary-light: #f9a26c;
   --white: #ffffff;
   --offwhite: #efeeee;
+  --transition-time: 0.2s;
 }
 
 button {
@@ -15,9 +16,9 @@ button {
   background-color: var(--white);
   border-radius: 10px;
   height: 35px;
-  margin: 15px 0;
+  margin: 15px 10px 15px 0;
   justify-content: center;
-  transition: all 0.5s;
+  transition: all var(--transition-time);
 }
 
 button:hover {
