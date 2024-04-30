@@ -1,6 +1,6 @@
 <template>
   <h1>This is Home!</h1>
-  <h3>New App</h3>
+  <h3>Azure DevOps Pipeline App</h3>
   <StoreComponent :name="`Component 1`" />
 
   <div>
